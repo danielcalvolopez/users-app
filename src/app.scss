@@ -1,0 +1,44 @@
+.content-wrapper {
+  padding: 50px 50px;
+  span {
+    width: 2px;
+  }
+
+  .title-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: none;
+    padding: 20px 5px;
+    background-color: rgb(118, 21, 160);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(77, 7, 107, 0.506);
+    }
+  }
+
+  .title-toggle-off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: none;
+    padding: 20px 5px;
+    background-color: rgb(118, 21, 160);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(111, 111, 111);
+    &:hover {
+      background-color: rgba(77, 7, 107, 0.506);
+    }
+  }
+}
+
+.position-relative {
+  position: relative;
+}

@@ -1,0 +1,31 @@
+.dropmenu-wrapper {
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+.dropmenu {
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  border-radius: 2px;
+  border: 1px solid rgb(118, 21, 160);
+  color: rgb(118, 21, 160);
+  box-shadow: 0 0 0 rgb(111, 111, 111);
+  .dropmenu-divider {
+    border: 0.5px solid rgb(118, 21, 160);
+  }
+  .drop-asc,
+  .drop-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    cursor: pointer;
+    padding: 5px 5px;
+    font-size: 14;
+    &:hover {
+      background-color: rgba(118, 21, 160, 0.215);
+    }
+  }
+}

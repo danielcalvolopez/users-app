@@ -1,0 +1,26 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px 10px;
+  padding: 5px 5px;
+  border-radius: 2px;
+}
+
+.item-card {
+  margin-bottom: 15px;
+}
+
+.item-wrapper {
+  padding: 5px 5px;
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+  }
+}
