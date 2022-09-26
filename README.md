@@ -4,7 +4,7 @@ Runs the app in the development mode.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 
 This is an add user app with sorting (asc and desc) and search bar filter, with the option of also remove users.
 
